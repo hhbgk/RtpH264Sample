@@ -8,7 +8,7 @@ package com.rtp.h264.sample;
  */
 public class RtpClient {
     static{
-        System.loadLibrary("rtp");
+        System.loadLibrary("rtp-lib");
     }
 
     private native void _init();

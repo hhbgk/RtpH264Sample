@@ -1,5 +1,5 @@
 #include "rtp_jni.h"
-#include "rtp_h264.h"
+#include "rtp/rtp_h264.h"
 
 #define JNI_CLASS_IJKPLAYER     "com/rtp/h264/sample/RtpClient"
 #define NELEM(x) ((int) (sizeof(x) / sizeof((x)[0])))

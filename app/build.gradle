@@ -21,6 +21,11 @@ android {
         jniLibs.srcDirs 'src/main/libs'
         jni.srcDirs = [] // This prevents the auto generation of Androidmk
     }
+    externalNativeBuild {
+        cmake {
+            path 'src/main/jni/CMakeLists.txt'
+        }
+    }
 }
 
 dependencies {
