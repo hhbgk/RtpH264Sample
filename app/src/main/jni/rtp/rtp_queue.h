@@ -8,7 +8,7 @@
 #include <arpa/inet.h>
 #include <pthread.h>
 
-#include "rtp_jni.h"
+#include "../rtp_jni.h"
 
 #ifndef IPINPUT_H_
 #define IPINPUT_H_

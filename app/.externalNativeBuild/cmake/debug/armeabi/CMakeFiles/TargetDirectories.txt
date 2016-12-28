@@ -1,0 +1,6 @@
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/edit_cache.dir
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rebuild_cache.dir
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/armeabi/CMakeFiles/rtp.dir
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/armeabi/rtp/CMakeFiles/edit_cache.dir
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/armeabi/rtp/CMakeFiles/rebuild_cache.dir
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/armeabi/rtp/CMakeFiles/rtp_h264.dir

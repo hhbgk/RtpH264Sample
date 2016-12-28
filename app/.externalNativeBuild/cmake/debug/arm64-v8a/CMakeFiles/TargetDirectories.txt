@@ -1,0 +1,6 @@
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rtp.dir
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/arm64-v8a/rtp/CMakeFiles/edit_cache.dir
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/arm64-v8a/rtp/CMakeFiles/rebuild_cache.dir
+/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/arm64-v8a/rtp/CMakeFiles/rtp_h264.dir

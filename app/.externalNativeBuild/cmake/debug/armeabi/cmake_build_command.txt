@@ -1,0 +1,14 @@
+Executable : /home/bob/tools/android/cmake/3.6.3155560/bin/cmake
+arguments : 
+-H/home/bob/AndroidStudioProjects/RtpH264Sample/app/src/main/jni
+-B/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/debug/armeabi
+-GAndroid Gradle - Ninja
+-DANDROID_ABI=armeabi
+-DANDROID_NDK=/home/bob/tools/android/ndk-bundle
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/bob/AndroidStudioProjects/RtpH264Sample/app/build/intermediates/cmake/debug/obj/armeabi
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_MAKE_PROGRAM=/home/bob/tools/android/cmake/3.6.3155560/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=/home/bob/tools/android/ndk-bundle/build/cmake/android.toolchain.cmake
+-DANDROID_PLATFORM=android-15
+jvmArgs : 
+

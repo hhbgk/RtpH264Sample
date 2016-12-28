@@ -1,5 +1,5 @@
 #include "rtp_h264.h"
-#include "rtp_jni.h"
+#include "../rtp_jni.h"
 
 static int find_start_code1 (unsigned char *buffer); // find start code 0x000001
 static int find_start_code2 (unsigned char *buffer); // find start code 0x00000001

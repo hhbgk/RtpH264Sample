@@ -1,0 +1,66 @@
+
+{
+	"buildFiles" : 
+	[
+		"/home/bob/AndroidStudioProjects/RtpH264Sample/app/src/main/jni/CMakeLists.txt",
+		"/home/bob/AndroidStudioProjects/RtpH264Sample/app/src/main/jni/rtp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/home/bob/tools/android/cmake/3.6.3155560/bin/cmake --build /home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/release/arm64-v8a --target clean"
+	],
+	"libraries" : 
+	{
+		"rtp-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rtp",
+			"buildCommand" : "/home/bob/tools/android/cmake/3.6.3155560/bin/cmake --build /home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/release/arm64-v8a --target rtp",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target aarch64-none-linux-android -gcc-toolchain /home/bob/tools/android/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/bob/tools/android/ndk-bundle/platforms/android-21/arch-arm64 -Drtp_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/bob/AndroidStudioProjects/RtpH264Sample/app/src/main/jni/rtp_jni.c",
+					"workingDirectory" : "/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/home/bob/AndroidStudioProjects/RtpH264Sample/app/build/intermediates/cmake/release/obj/arm64-v8a/librtp.so",
+			"toolchain" : "17056645681446472253"
+		},
+		"rtp_h264-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "rtp_h264",
+			"buildCommand" : "/home/bob/tools/android/cmake/3.6.3155560/bin/cmake --build /home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/release/arm64-v8a --target rtp_h264",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target aarch64-none-linux-android -gcc-toolchain /home/bob/tools/android/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/bob/tools/android/ndk-bundle/platforms/android-21/arch-arm64   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/bob/AndroidStudioProjects/RtpH264Sample/app/src/main/jni/rtp/rtp_queue.c",
+					"workingDirectory" : "/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  -target aarch64-none-linux-android -gcc-toolchain /home/bob/tools/android/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64 --sysroot=/home/bob/tools/android/ndk-bundle/platforms/android-21/arch-arm64   -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/home/bob/AndroidStudioProjects/RtpH264Sample/app/src/main/jni/rtp/rtp_h264.c",
+					"workingDirectory" : "/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/home/bob/AndroidStudioProjects/RtpH264Sample/app/.externalNativeBuild/cmake/release/arm64-v8a/rtp/librtp_h264.a",
+			"toolchain" : "17056645681446472253"
+		}
+	},
+	"toolchains" : 
+	{
+		"17056645681446472253" : 
+		{
+			"cCompilerExecutable" : "/home/bob/tools/android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/home/bob/tools/android/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+		}
+	}
+}

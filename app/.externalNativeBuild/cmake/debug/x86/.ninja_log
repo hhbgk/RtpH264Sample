@@ -1,0 +1,6 @@
+# ninja log v5
+0	37	0	rtp/CMakeFiles/rtp_h264.dir/rtp_queue.c.o	40293af700ea44e1
+0	48	0	rtp/CMakeFiles/rtp_h264.dir/rtp_h264.c.o	3119c922f50dba5d
+48	54	0	rtp/librtp_h264.a	d999c70e970d5568
+54	92	0	CMakeFiles/rtp.dir/rtp_jni.c.o	2b217a45689579c1
+92	102	0	/home/bob/AndroidStudioProjects/RtpH264Sample/app/build/intermediates/cmake/debug/obj/x86/librtp.so	fbf8d802ac0b9edc
