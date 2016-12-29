@@ -19,15 +19,17 @@ public class MainActivity extends AppCompatActivity {
         mRtp = new RtpClient();
 
         mFilenameEdit = (EditText) findViewById(R.id.edit_id);
-        mFilenameEdit.setText("test.h264");
+        String filePath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).getPath();
+        filePath += "/";
+        filePath += "test.h264";
+        mFilenameEdit.setText(filePath);
 
         mSendBtn = (Button) findViewById(R.id.send);
         mSendBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String filePath = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS).getPath();
-                filePath += "/";
-                filePath += mFilenameEdit.getText().toString().trim();
+
+                String filePath = mFilenameEdit.getText().toString().trim();
                 mRtp.send(filePath);
             }
         });
